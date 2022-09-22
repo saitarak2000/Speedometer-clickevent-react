@@ -10,6 +10,8 @@ In this project, let's build a **Speedometer** by applying the concepts we have 
 
 ### Design Files
 
+Check ou this url: https://speedometerreac.ccbp.tech/
+
 <details>
 <summary>Click to view</summary>
 
