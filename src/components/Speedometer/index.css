@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  height: 100vh;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-style: italic;
+}
+
+.image {
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    width: 50%;
+  }
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+p {
+  color: #cbd5e1;
+  font-size: 16px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.accelerate {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.break {
+  background-color: transparent;
+  color: #94a3b8;
+  border: 0px;
+  border: 3px #94a3b8 solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
